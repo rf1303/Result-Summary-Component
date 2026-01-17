@@ -41,8 +41,10 @@
     --text-preset-2: 3.5rem;
     --text-preset-3: 1.5rem;
     --text-preset-4: 1.125rem;
+    --text-preset-5: 2rem;
 
     --font-hankenGrotest: 'hankenGrotest', sans serif;
+    --spacing-clampResult-h: clamp(22.25rem, 12.9228rem + 39.7959vw, 32rem);
 }
 
 @font-face {
