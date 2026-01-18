@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 export function YourResult() {
     const { jsonData } = useDataJson();
+    console.log('jsonData:', jsonData)
     const average = jsonData.length === 0
         ? 0
         : Math.round((jsonData.reduce((previous, current) => previous + current.score, 0)) / jsonData.length);
