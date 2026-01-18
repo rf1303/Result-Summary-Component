@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-* {
+body {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -60,11 +60,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body,
+#root {
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
 }
+
 
 button {
     display: block;
