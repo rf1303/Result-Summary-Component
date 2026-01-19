@@ -6,7 +6,7 @@ export function useDataJson() {
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await fetch('./data.json');
+                const response = await fetch('/Result-Summary-Component/data.json');
                 if (!response.ok) {
                     throw new Error('Error http: ${response.status}');
                 }
