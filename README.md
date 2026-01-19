@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot01.jpeg)
+![](./screenshot02.jpeg)
+![](./screenshot03.jpeg)
 
 
 ### Links
@@ -63,7 +65,7 @@ export function useDataJson() {
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await fetch('/data.json');
+                const response = await fetch('/Result-Summary-Component/data.json');
                 if (!response.ok) {
                     throw new Error('Error http: ${response.status}');
                 }
