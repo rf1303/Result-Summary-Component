@@ -11,7 +11,7 @@ export function Summary() {
     }
 
     return (
-        <section className='w-full h-full grid items-center justify-items-center bg-white md:rounded-r-4xl md:transform md:-translate-x-5'>
+        <section className='w-full h-full grid items-center justify-items-center bg-white md:rounded-r-4xl'>
             <div className='w-full max-w-79 grid items-center gap-6 md:max-w-67'>
                 <h2 className='text-navy-950 text-preset-4 font-bold md:text-preset-3'>Summary</h2>
                 <div className='grid gap-4'>
@@ -27,7 +27,7 @@ export function Summary() {
                         </div>
                     ))}
                 </div>
-                <button type='button' className='bg-navy-950 rounded-4xl py-4 text-preset-4 font-bold'>Continue</button>
+                <button type='button' className='bg-navy-950 rounded-4xl py-4 text-preset-4 font-bold cursor-pointer hover:bg-linear-180 hover:from-gradient-02  hover:to-gradient-22 active:bg-linear-180 active:from-gradient-02  active:to-gradient-22'>Continue</button>
             </div>
         </section>
     );
