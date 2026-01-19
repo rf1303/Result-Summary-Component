@@ -12,7 +12,7 @@ export function Summary() {
 
     return (
         <section className='w-full h-full grid items-center justify-items-center bg-white md:rounded-r-4xl'>
-            <div className='w-full max-w-79 grid items-center gap-6 md:max-w-67'>
+            <div className='w-full max-w-79 grid items-center gap-6 md:max-w-72'>
                 <h2 className='text-navy-950 text-preset-4 font-bold md:text-preset-3'>Summary</h2>
                 <div className='grid gap-4'>
                     {jsonData.map((data, index) => (
